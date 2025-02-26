@@ -1,5 +1,5 @@
 # Site settings
-title: Best Reviews
+title: Clyde's Product Reviews
 description: I review the best products, tools, and services to help you make the right decision.
 author: Clyde Barker
 
@@ -18,8 +18,17 @@ navbar-links:
   Contact: "contact"
 
 # --- General options --- #
-url: "https://yourusername.github.io"
+url: "https://parasiticleech.github.io"
 baseurl: ""
+
+# Title link configuration
+title-img: false  # Set to false if you want to use text title
+# If you want a title image instead, specify the path here
+# title-img: /path/to/title-image.png
+
+# Whether the title should link to the home page
+# Set to true to enable the link
+title-link: true
 
 # Default YAML values
 defaults:
