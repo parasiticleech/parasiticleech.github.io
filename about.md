@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About
-subtitle: Learn more about Best Reviews and Clyde Barker
+subtitle: Learn more Clyde's Product Reviews
 ---
 
-# About Best Reviews
+# About Clyde's Product Reviews
 
 Welcome to Best Reviews! I'm Clyde Barker, and I'm passionate about helping people make informed decisions through honest, thorough reviews of products, tools, and services.
 

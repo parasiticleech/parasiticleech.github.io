@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-subtitle: How Best Reviews handles your data
+subtitle: How Clyde's Product Reviews handles your data
 permalink: /privacy-policy/
 ---
 
@@ -11,7 +11,7 @@ permalink: /privacy-policy/
 
 ## Introduction
 
-Welcome to Best Reviews ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
+Welcome to Clyde's Product Reviews ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
 
 ## The Data We Collect
 
