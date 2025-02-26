@@ -13,7 +13,9 @@ plugins:
 # Personalization
 navbar-links:
   About: "about"
+  Reviews: "reviews"
   Privacy Policy: "privacy-policy"
+  Contact: "contact"
 
 # --- General options --- #
 url: "https://yourusername.github.io"

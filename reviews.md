@@ -1,16 +1,15 @@
 ---
-layout: home
-title: Clyde's Product Reviews
-subtitle: A collection of articles and reviews
+layout: page
+title: All Reviews
+subtitle: Comprehensive product and service reviews to help you make informed decisions
 ---
 
-Welcome to Best Reviews! I'm Clyde Barker, and I provide honest, thorough reviews to help you make informed purchasing decisions.
+# All Product Reviews
 
-## Latest Reviews
+Below you'll find a complete list of all my product and service reviews. Each review follows a consistent methodology including hands-on testing, standardized scoring, and real-world use cases.
 
 <div class="posts-list">
-  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-  {% for post in sorted_posts limit:10 %}
+  {% for post in site.posts %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
         <h2 class="post-title">{{ post.title }}</h2>
@@ -52,10 +51,13 @@ Welcome to Best Reviews! I'm Clyde Barker, and I provide honest, thorough review
   {% endfor %}
 </div>
 
-<div class="text-center">
-  <a href="/reviews" class="btn btn-primary">View All Reviews</a>
-</div>
+## Review Methodology
 
-## Featured Content
+All reviews on this site follow a consistent methodology:
 
-Check out my [review of the best AI detector tools](ai-detector-tools.html) including Undetectable.ai and Originality.ai.
+1. **Hands-on Testing**: Each product is tested for a minimum of two weeks
+2. **Standardized Scoring**: Products are rated on a 5-point scale across multiple factors
+3. **Real-world Use Cases**: Testing focuses on practical, everyday scenarios
+4. **Regular Updates**: Reviews are updated when products receive significant updates
+
+Have a product you'd like me to review? Check out the [Contact](/contact.html) page to submit your suggestion. 
