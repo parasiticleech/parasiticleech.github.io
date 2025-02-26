@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Best AI Detector Tools
 subtitle: Reviews of top AI content detection solutions
+date: 2023-07-15
+tags: [ai, tools, content]
 ---
 
 # Best AI Detection Tools

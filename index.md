@@ -1,8 +1,16 @@
 ---
 layout: home
-title: My Website
-subtitle: Welcome to my Jekyll site using Beautiful Jekyll
+title: My Blog
+subtitle: A collection of articles and reviews
 ---
+
+Welcome to my blog! Here you'll find articles about technology, AI tools, and more.
+
+<!-- The Beautiful Jekyll theme automatically lists your posts on the home page when using the home layout -->
+
+<!-- If you want to add some introduction text above the post list: -->
+
+<!-- The post list will be automatically inserted below -->
 
 ## Projects
 

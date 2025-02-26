@@ -53,3 +53,20 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+# Post settings
+post_excerpts: true
+excerpt_length: 50
+read_more_link_text: "Read more..."
+
+# Default settings for blog posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+      readtime: true
