@@ -4,11 +4,6 @@ title: My Website
 subtitle: Welcome to my Jekyll site using Beautiful Jekyll
 ---
 
-<!-- The Beautiful Jekyll theme will handle the HTML structure for you.
-     You can add custom content here that will be inserted into the theme's layout. -->
-
-<!-- If you want to showcase your projects, you can use markdown or HTML here: -->
-
 ## Projects
 
 ### Project 1
@@ -37,5 +32,4 @@ Email: your.email@example.com
 
 - [GitHub](https://github.com/yourusername)
 - [LinkedIn](https://linkedin.com/in/yourusername)
-- [Twitter](https://twitter.com/yourusername)
-
+- [Twitter](https://twitter.com/yourusername) 
