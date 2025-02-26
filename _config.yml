@@ -1,3 +1,48 @@
+# Site settings
+title: Your Website Title
+description: A short description of your site
+author: Your Name
+
+# Build settings
+remote_theme: daattali/beautiful-jekyll@5.0.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Personalization
+navbar-links:
+  About: "about"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - GitHub Pages: "https://pages.github.com"
+  Author's home: "https://yourdomain.com"
+
+# --- General options --- #
+url: "https://yourusername.github.io"
+baseurl: ""
+
+# Default YAML values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Additional settings from your original config
 lsi: false
 safe: true
 source: .
