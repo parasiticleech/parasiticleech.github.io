@@ -92,12 +92,3 @@ label {
   border: 1px solid #c3e6cb;
 }
 </style>
-
-## Other Ways to Reach Me
-
-If you prefer not to use the contact form, you can also reach me through:
-
-- **Email**: reviews@bestreviews.com
-- **Twitter**: [@BestReviewsClyde](https://twitter.com/BestReviewsClyde)
-
-I typically respond to all inquiries within 2 business days. 

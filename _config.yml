@@ -47,8 +47,8 @@ defaults:
       layout: "page"
 
 # Pagination
-paginate: 5
-paginate_path: "/page:num/"
+paginate: 10
+paginate_path: "/reviews/page:num/"
 
 # Additional settings from your original config
 lsi: false
