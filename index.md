@@ -4,13 +4,13 @@ title: Clyde's Product Reviews
 subtitle: A collection of articles and reviews
 ---
 
-Welcome to Best Reviews! I'm Clyde Barker, and I provide honest, thorough reviews to help you make informed purchasing decisions.
+Welcome to Clyde's Product Reviews! I provide honest, thorough reviews to help you make informed purchasing decisions.
 
 ## Latest Reviews
 
 <div class="posts-list">
-  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-  {% for post in sorted_posts limit:10 %}
+  {% assign blog_posts = site.posts | where_exp: "post", "post.path contains '/blog/'" | sort: "date" | reverse %}
+  {% for post in blog_posts limit:10 %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
         <h2 class="post-title">{{ post.title }}</h2>
@@ -23,21 +23,9 @@ Welcome to Best Reviews! I'm Clyde Barker, and I provide honest, thorough review
         Posted on {{ post.date | date: "%B %-d, %Y" }}
       </p>
 
-      <div class="post-entry-container">
-        {% if post.image %}
-        <div class="post-image">
-          <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.image | relative_url }}">
-          </a>
-        </div>
-        {% endif %}
-        <div class="post-entry">
-          {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-          {% assign excerpt_word_count = post.excerpt | number_of_words %}
-          {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-            <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-          {% endif %}
-        </div>
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
       </div>
 
       {% if post.tags.size > 0 %}
@@ -58,4 +46,4 @@ Welcome to Best Reviews! I'm Clyde Barker, and I provide honest, thorough review
 
 ## Featured Content
 
-Check out my [review of the best AI detector tools](ai-detector-tools.html) including Undetectable.ai and Originality.ai.
+Check out my [review of the best AI detector tools](/blog/ai-detector-tools.html) including Undetectable.ai and Originality.ai.
