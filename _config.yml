@@ -1,7 +1,7 @@
 # Site settings
-title: Your Website Title
-description: A short description of your site
-author: Your Name
+title: Best Reviews
+description: I review the best products, tools, and services to help you make the right decision.
+author: Clyde Barker
 
 # Build settings
 remote_theme: daattali/beautiful-jekyll@5.0.0
@@ -13,10 +13,7 @@ plugins:
 # Personalization
 navbar-links:
   About: "about"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - GitHub Pages: "https://pages.github.com"
-  Author's home: "https://yourdomain.com"
+  Privacy Policy: "privacy-policy"
 
 # --- General options --- #
 url: "https://yourusername.github.io"
