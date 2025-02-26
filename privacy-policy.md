@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 subtitle: How Best Reviews handles your data
+permalink: /privacy-policy/
 ---
 
 # Privacy Policy

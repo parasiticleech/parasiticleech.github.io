@@ -12,6 +12,7 @@ plugins:
 
 # Personalization
 navbar-links:
+  Home: "/"
   About: "about"
   Reviews: "reviews"
   Privacy Policy: "privacy-policy"
