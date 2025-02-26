@@ -28,8 +28,6 @@ While I review a variety of products and services, I specialize in:
 
 ## About Clyde Barker
 
-![Clyde Barker](https://via.placeholder.com/150x150?text=CB)
-
 I've spent over a decade in the tech industry, working as a product analyst and technology consultant. My background includes:
 
 - 5+ years of professional product testing experience
