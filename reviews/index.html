@@ -13,9 +13,9 @@ subtitle: Comprehensive product and service reviews to help you make informed de
     {% if post.path contains 'reviews/' and post.path != 'reviews/index.html' %}
       <article class="post-preview">
         <a href="{{ post.url | relative_url }}">
-          <h2 class="post-title">{{ post.title }}</h2>
+          <h3 class="post-title">{{ post.title }}</h3>
           {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            <h4 class="post-subtitle">{{ post.subtitle }}</h4>
           {% endif %}
         </a>
 
