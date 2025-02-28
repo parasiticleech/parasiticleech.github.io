@@ -12,7 +12,7 @@ As AI-generated content becomes more prevalent, the need for reliable detection 
 
 ## Undetectable.ai
 
-![Undetectable.ai logo](https://via.placeholder.com/150x75?text=Undetectable.ai)
+![Undetectable.ai logo](/images/undetectable-ai-logo.png)
 
 **Rating: 4.5/5**
 
@@ -44,7 +44,7 @@ Undetectable.ai stands out for its dual functionality - both detecting AI conten
 
 ## Originality.ai
 
-![Originality.ai logo](https://via.placeholder.com/150x75?text=Originality.ai)
+![Originality.ai logo](/images/originality-ai-logo.png)
 
 **Rating: 4.7/5**
 
