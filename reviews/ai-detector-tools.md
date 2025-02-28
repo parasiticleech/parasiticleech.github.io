@@ -44,7 +44,7 @@ Undetectable.ai stands out for its dual functionality - both detecting AI conten
 
 ## Originality.ai
 
-![Originality.ai logo](/images/originality-ai-logo.png)
+![Originality.ai logo](/images/originality-logo-og.webp)
 
 **Rating: 4.7/5**
 
