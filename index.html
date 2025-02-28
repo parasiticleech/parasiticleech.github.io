@@ -1,0 +1,57 @@
+---
+layout: home
+title: Clyde's Product Reviews
+subtitle: A collection of articles and reviews
+---
+
+<p>Welcome to Clyde's Product Reviews! I provide honest, thorough reviews to help you make informed purchasing decisions.</p>
+
+<h2>Latest Reviews</h2>
+
+<div class="posts-list">
+  {% for post in site.pages %}
+    {% if post.path contains 'reviews/' and post.path != 'reviews/index.html' %}
+      <article class="post-preview">
+        <a href="{{ post.url | relative_url }}">
+          <h2 class="post-title">{{ post.title }}</h2>
+          {% if post.subtitle %}
+            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+          {% endif %}
+        </a>
+
+        <p class="post-meta">
+          Posted on {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+
+        {% if post.content %}
+        <div class="post-entry">
+          {{ post.content | strip_html | truncatewords: 50 }}
+          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        </div>
+        {% endif %}
+
+        {% if post.tags.size > 0 %}
+        <div class="blog-tags">
+          Tags:
+          {% for tag in post.tags %}
+          <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      
+      {% assign review_count = forloop.index %}
+      {% if review_count >= 10 %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="text-center">
+  <a href="/reviews" class="btn btn-primary">View All Reviews</a>
+</div>
+
+<h2>Featured Content</h2>
+
+<p>Check out my <a href="/reviews/ai-detector-tools.html">review of the best AI detector tools</a> including Undetectable.ai and Originality.ai.</p>
