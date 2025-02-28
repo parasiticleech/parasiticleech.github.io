@@ -9,7 +9,7 @@ Welcome to Clyde's Product Reviews! I provide honest, thorough reviews to help y
 ## Latest Reviews
 
 <div class="posts-list">
-  {% assign blog_posts = site.posts | where_exp: "post", "post.path contains '/blog/'" | sort: "date" | reverse %}
+  {% assign blog_posts = site.posts | where_exp: "post", "post.path contains '/reviews/'" | sort: "date" | reverse %}
   {% for post in blog_posts limit:10 %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
