@@ -9,7 +9,7 @@ subtitle: Comprehensive product and service reviews to help you make informed de
 <p>Below you'll find a complete list of all my product and service reviews. Each review follows a consistent methodology including hands-on testing, standardized scoring, and real-world use cases.</p>
 
 <div class="posts-list">
-  {% assign review_posts = site.posts | where_exp: "post", "post.path contains '/reviews/'" | sort: "date" | reverse %}
+  {% assign review_posts = site.pages | where_exp: "page", "page.path contains 'reviews/' and page.path != 'reviews/index.html'" | sort: "date" | reverse %}
   {% for post in review_posts %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
