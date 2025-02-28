@@ -4,10 +4,10 @@ title: "Content Goblin Review: The Best AI Tool for Pinterest Content Creation?"
 subtitle: "A comprehensive review of this automated listicle and Pinterest image generator"
 date: 2025-02-26
 tags: [ai-tools, content-creation, pinterest, review]
-image: /images/content-goblin-default-share.png
+image: /images/content-goblin.png
 ---
 
-![Content Goblin AI Tool](/images/content-goblin-default-share.png)
+![Content Goblin AI Tool](/images/content-goblin.png)
 
 ## Overview
 
