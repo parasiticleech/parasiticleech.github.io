@@ -10,7 +10,7 @@ Below you'll find a complete list of all my product and service reviews. Each re
 
 <div class="posts-list">
       <article class="post-preview">
-        <a href="/blog/best-ai-detector-tools">
+        <a href="/reviews/best-ai-detector-tools">
           <h2 class="post-title">Best AI Detector Tools</h2>
         </a>
       </article>  
