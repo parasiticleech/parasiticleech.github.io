@@ -13,7 +13,7 @@ image: /images/content-goblin.png
 
 Content Goblin is an AI-powered content generation tool specifically designed for creating Pinterest-optimized content and listicle articles. It aims to streamline the content creation process by automating both text and image generation in a single platform.
 
-**Rating: 4.5/5**
+**Rating: 4.8/5**
 
 ## Key Features
 
