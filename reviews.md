@@ -9,11 +9,30 @@ subtitle: Comprehensive product and service reviews to help you make informed de
 Below you'll find a complete list of all my product and service reviews. Each review follows a consistent methodology including hands-on testing, standardized scoring, and real-world use cases.
 
 <div class="posts-list">
-      <article class="post-preview">
-        <a href="/reviews/ai-detector-tools">
-          <h3 class="post-title">Best AI Detector Tools</h3>
-        </a>
-      </article>  
+  {% assign review_posts = site.posts | where_exp: "post", "post.path contains '/reviews/'" | sort: "date" | reverse %}
+  {% for post in review_posts %}
+    <article class="post-preview">
+      <a href="{{ post.url | relative_url }}">
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}
+          <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        {% endif %}
+      </a>
+
+      <p class="post-meta">
+        Posted on {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+
+      {% if post.tags.size > 0 %}
+      <div class="blog-tags">
+        Tags:
+        {% for tag in post.tags %}
+        <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </article>
+  {% endfor %}
 </div>
 
 <!-- Pagination links -->
