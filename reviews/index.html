@@ -4,7 +4,8 @@ title: Reviews
 ---
 
 <div class="posts-list">
-  {% for post in paginator.posts %}
+  {% assign review_posts = site.posts | sort: "date" | reverse %}
+  {% for post in review_posts limit:10 %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
         <h2 class="post-title">{{ post.title }}</h2>
@@ -16,6 +17,11 @@ title: Reviews
       <p class="post-meta">
         Posted on {{ post.date | date: "%B %-d, %Y" }}
       </p>
+
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+      </div>
 
       {% if post.tags.size > 0 %}
       <div class="blog-tags">
@@ -29,19 +35,6 @@ title: Reviews
   {% endfor %}
 </div>
 
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="btn btn-primary">&larr; Newer Reviews</a>
-  {% endif %}
-  
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="btn btn-primary">Older Reviews &rarr;</a>
-  {% endif %}
-</div>
-
-<div class="pagination-info text-center">
-  Page {{ paginator.page }} of {{ paginator.total_pages }}
-</div>
-{% endif %} 
+<div class="text-center">
+  <a href="/archive" class="btn btn-primary">View All Reviews</a>
+</div> 
